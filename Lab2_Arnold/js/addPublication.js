@@ -1,9 +1,9 @@
 $(document).ready(function () {
-    // Gestionnaire d'événement pour le formulaire
+
     $('#addPublicationForm').submit(function (event) {
         event.preventDefault();
 
-        // Récupérer les valeurs du formulaire
+        // Récupération des valeurs du formulaire
         let title = $('#title').val();
         let author = $('#author').val();
         let content = $('#content').val();

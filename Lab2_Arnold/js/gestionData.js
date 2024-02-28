@@ -1,15 +1,15 @@
-function RecuperationDataPub() {
+ function RecuperationDataPub() {
     fetch('http://localhost:3000/publications') 
         .then(response => response.json())
         .then(json => {
        
-            let blogContainer = document.getElementById('blogContainer');
+            const blogContainer = document.getElementById('blogContainer');
             for (let i = 0; i < json.length; i++) {
                 let publication = json[i];
                 blogContainer.innerHTML +=  `
                     <div class="col-12  col-lg-4">       
                         <div class="card" style="width: 18rem;">
-                            <a href="blogPost.html" class="blog">
+                            <a href="blogPost.html?id=${publication.id}" class="blog">
                                 <img src="../images/crypto.jpg" class="card-img-top" alt="crypto"/>
                                 <div class="card-body">
                                     <div class="card bg-info text-white">

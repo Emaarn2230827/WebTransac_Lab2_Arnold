@@ -55,6 +55,13 @@
       "auteur": "sdfsf",
       "contenu": "sdfsdfsdf",
       "datePublication": "2024-02-24"
+    },
+    {
+      "id": "4b96",
+      "titre": "les ogres",
+      "auteur": "arnold",
+      "contenu": "les ogres sont des humains ",
+      "datePublication": "2024-02-28"
     }
   ],
   "commentaires": [
@@ -66,7 +73,7 @@
     },
     {
       "id": "2",
-      "idPub": "2",
+      "idPub": "1",
       "datePublication": "2021-07-10",
       "contenu": "This article resonated with me deeply. The idea of forging our own paths in uncharted destinies is truly inspiring."
     },
@@ -114,9 +121,45 @@
     },
     {
       "id": "10",
-      "idPub": "4",
+      "idPub": "2",
       "datePublication": "2021-10-05",
       "contenu": "The analogy of dreams as guiding stars is beautiful. Thank you for sharing!"
+    },
+    {
+      "id": "39a4",
+      "idPub": "1",
+      "contenu": "je suis",
+      "datePublication": "2024-02-26"
+    },
+    {
+      "id": "86e6",
+      "idPub": "1",
+      "contenu": "rerer",
+      "datePublication": "2024-02-27"
+    },
+    {
+      "id": "957b",
+      "idPub": "fba0",
+      "contenu": "mon premier commentaire",
+      "datePublication": "2024-02-28"
+    },
+    {
+      "id": "cac0",
+      "idPub": "fba0",
+      "contenu": "je suis",
+      "datePublication": "2024-02-28"
+    },
+    {
+      "id": "d51b",
+      "idPub": "7",
+      "contenu": "very cute guys",
+      "datePublication": "2024-02-28"
+    },
+    {
+      "id": "4653",
+      "idPub": "6",
+      "contenu": "mon second commentaire\n",
+      "datePublication": "2024-02-28"
     }
   ]
 }

@@ -2,10 +2,6 @@ p {
   font-family: "Open sans";
 }
 
-body#bodyAddPub{
-  background-color: #00ADB5;
-}
-
 header {
   background-color: #222831;
 }
@@ -24,7 +20,6 @@ img.logoReso {
   width: 22px;
   height: 22px;
   border-radius: 8px;
-  box-shadow: 8px;
 }
 
 a.blog {
@@ -79,11 +74,34 @@ nav {
   background-color: #222831;
 }
 
-.custom-input {
-  width: 60%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card-img-top {
+  filter: brightness(80%);
+}
+
+body#bodyAddPub {
+  background-color: #00ADB5;
+}
+
+.form-control.custom-input {
+  border: 2px solid #222831;
+  border-radius: 5px;
+  padding: 10px;
+  width: 45%;
   box-sizing: border-box;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #222831;
+}
+
+.form-control.custom-input:focus + .form-label {
+  color: #222831;
 }
 
 /*# sourceMappingURL=style.css.map */
